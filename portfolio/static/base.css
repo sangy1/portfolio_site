@@ -1,10 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Spectral:wght@300&display=swap');
 body{
     background-color: #116461;
     color: #D1E8E2;
+    font-family: 'Spectral', serif;
 }
 
 #page-link, span {
     color: #D1E8E2;
+    font-size: 20px;
+    font-family: 'Spectral', serif;
 }
 
 #page-link:hover, span:hover {
