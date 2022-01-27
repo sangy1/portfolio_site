@@ -1,6 +1,8 @@
 import os
 from pathlib import Path
 
+import exchange_rate
+
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -30,6 +32,7 @@ INSTALLED_APPS = [
     'quote_generator',
     'blog',
     'portfolio',
+    'exchange_rate',
 ]
 
 MIDDLEWARE = [
@@ -112,6 +115,7 @@ STATIC_URL = 'static/'
 
 STATIC_DIRS = [
     BASE_DIR / "quote_generator" / "static",
+    BASE_DIR / "exchange_rate" / "static",
     BASE_DIR / "movie_booking" / "static",
 ]
 

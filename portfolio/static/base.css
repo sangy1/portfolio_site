@@ -1,0 +1,12 @@
+body{
+    background-color: #116461;
+    color: #D1E8E2;
+}
+
+#page-link, span {
+    color: #D1E8E2;
+}
+
+#page-link:hover, span:hover {
+    color: #FFCB9A
+}
